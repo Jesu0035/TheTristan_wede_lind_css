@@ -1,0 +1,149 @@
+
+:root{
+    
+--red:#e12519;
+--background:#ffffff;
+--blue_kea:#32456d;
+--font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+--border-radius:10px;
+--font-size:20px;
+--ms-grid-column:1fr 4fr 1fr;
+--yellow:#e4bd05;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+@media (min-width:320px) and (max-width: 576px){
+
+body{ 
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.title-web{
+    background-color:var(--blue_kea);
+    height: 100px;
+   padding: 10px ;
+   font-size: large;
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  color: blanchedalmond;
+
+}
+.nav-menu{
+    background-color: #95aad6;
+    font-size: flex;
+    justify-items: center;
+    
+}
+ul li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    border-bottom: 2px solid var(--background);
+    font-size: var(--font-size);
+    color: var(--background);
+}
+.nav-menu ul li a:hover{
+    background-color: #093490;
+    color: var(--yellow);
+}
+.btn-release{
+    background-color: var(--red);
+    width: 15rem;
+    height: 2.5rem;
+    margin: 1rem;
+    border: 0;
+    border-radius: var(--border-radius);
+    color:var(--background);
+    cursor: pointer;
+}
+.new-release-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color:var(--yellow);
+}
+h2, img {
+    margin: 0.3rem;
+   
+}
+.publishing {
+ font-style: italic;
+}
+.img-book-prev{
+    background-color: var(--background);
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+}
+.bio-quote{
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    background-color: #95aad6;
+    height: 30rem;
+    margin: 2rem;
+    border-radius: var( --border-radius);
+}
+.bio-quote2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem;
+    font-size:var(--font-size);
+    padding: 1rem;
+    align-items: center;
+    font-style: italic;
+    color: var(--background);
+    text-align: center;
+}
+.bio-quote3{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: -15px;
+    margin-right: 20px;
+    font-size: var(--font-size);
+    font-style: italic;
+    color: var(--background);
+}
+
+.title-on-tour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #95aad6;
+    height: 50px;
+    padding: 1rem;
+    justify-content: center;
+}
+.Tristan-on-tour{
+    display: flex;
+    width: 450px;
+  flex-flow: row nowrap;
+  align-items: center;
+
+}
+
+}
+/*.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  }*/
+
