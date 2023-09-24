@@ -136,8 +136,64 @@ h2, img {
   align-items: center;
 
 }
+/*EVENTS ON TOURS*/
+.events2{
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+    padding: 1rem;
+    font-size: var(--font-size);
+}
+.microphone-event{
+    display: flex;
+    flex-direction:row;
+    align-items: start;
+    font-size: var(--font-size);
 
 }
+.microphone-img{
+    margin-left:0;
+}
+.event-name{
+    color:var(--yellow);
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid var(--blue_kea);
+    margin:1rem;
+    padding: 1rem;
+    font-size: var(--font-size);
+}
+.microphone-event{
+    display: flex;
+    flex-direction:row;
+    align-items: start;
+    font-size: var(--font-size);
+
+}
+.microphone-img{
+    margin-left:0;
+}
+.event-name{
+    color:var(--yellow);
+}
+.up-arrow{
+    display: flex;
+    flex-direction: row;
+ justify-content: end;
+ cursor: pointer;
+
+}
+.img-book{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 1rem;
+}
+}
+
 /*.arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
