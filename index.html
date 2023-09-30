@@ -3,42 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+   
     <title>Tristan W. Lind </title>
 </head>
 <body>
-    <header>
-        <div class="title-web"><h1>Tristan Wede Lind</h1>
-        <h2>Web Developer and Autor</h2>
-        <button>EN > </button>
-        </div>
-     
+    <header id ="header">
+     <div class="title-web">
+         
+           <div class="tristian2">
+        
+            <h1>Tristan Wede Lind</h1>
+            <h2 >Web Developer and Autor</h2>
+        </div >
+                <img class="lind-photo2"
+         src="img/lind.png" alt="lind">
+         </div> 
+      
+  
+    
+
 
         <nav class="nav-menu" id="nav-menu">
             <ul>
                 <li><a href="#nav-menu"> Home</a></li>
                 <li><a href="#on-tour"> On Tour</a></li>
                 <li><a href="#books"> Books </a></li>
-                <li><a href="#contact"> Contact </a></li>
+                <li><a href="#title-on-tour"> Contact </a></li>
                
             </ul>
         </nav>  
 
     </header>
 
-    <main> 
+    <main id="main"> 
         <section class="new-release-info">
-         
+         <div class="parte1">
             <button class="btn-release"> NEW RELEASE </button>
             <h2>Advanced PHP: From Zero to Hero</h2>
             <p class="publishing"> & 2023 Kea Publishing</p>
-     
+         </div>
 
-            <img class="img-book-prev" src="img/book_php_preview.png" alt="">
+            <img class="img-book-prev"  src="img/book_php_preview.png" alt="">
     
         </section>
+
+        
         <section id="text-bio1" class="events2">
-            <p>A Copenhagen native, Tristan Wede Lind has
+
+        <div class="text-welcome1">
+            <p class="text1"> A Copenhagen native, Tristan Wede Lind has
              established himself as a leading authority 
              in web development, captivating audiences 
              worldwide with his profound knowledge of various
@@ -46,8 +60,7 @@
               spanning over two decades, Lind has honed his 
               skills working for industry giants, where he 
               contributed to cutting-edge projects that pushed 
-              the boundaries of web development.</p>
-              <p>
+              the boundaries of web development.<br>
                 Lind's latest achievements showcase his 
                 commitment to advancing the field. Through 
                 meticulous research and hands-on experience, 
@@ -56,8 +69,22 @@
                 and responsive development, 
                 ensuring that websites and applications deliver 
                 immersive and intuitive experiences across devices.
-              </p> 
-                As an accomplished author, Lind has authored
+                  </p> 
+           
+            <article class="welcome1">
+                <div class="img-book"> 
+                <img src="img/book_css.png" alt=""></div>
+                <h3 class="title">CSS for Developers</h3>
+                <p><b>A Visual Journey </b> (2022) </p>
+            </article>
+
+            <article class="photo_2_welcome">
+                <div class="img-book"> 
+                <img src="img/book_css.png" alt=""></div>
+                <h3 class="title">CSS for Developers</h3>
+                <p><b>A Visual Journey </b> (2023) </p>
+            </article>
+              <p class="text2">As an accomplished author, Lind has authored
                  numerous critically acclaimed books that serve 
                  as essential guides for aspiring web developers 
                  and industry professionals alike. 
@@ -67,26 +94,41 @@
                    
                   languages, solidifying his reputation as an 
                    influential figure in the global web development
-                 community.
-<article class="bio-quote">
-    <p class="bio-quote2">
-        Tristan Wede Lind's books on
-         web development are an invaluable 
-         resource for both novices and seasoned
-          professionals. <br>  His comprehensive yet 
-          accessible approach demystifies complex 
-          concepts, providing practical guidance that
-           translates directly into real-world success.
-          <br> Lind's expertise shines through in every page, 
-           making his works an indispensable addition to 
-           any developer's library.</p>
-         <p class="bio-quote3">The Tech Tribune</p>
-    
+                 community.</p> 
+                 
+            
+            <article class="photo_2_welcome">
+                <div class="img-book">
+                <img src="img/book_js.png" alt=""></div>
+                <h3 class="title">Advanced JavaScript</h3>
+                <p><b>Frameworkless  </b> (2021) </p>
+             
+            </article>
+            <article class="welcome2">
+                <div class="img-book">
+                <img src="img/book_js.png" alt=""></div>
+                <h3 class="title">Advanced JavaScript</h3>
+                <p><b>Frameworkless  </b> (2023) </p>
+             
+            </article>
+            <article class="bio-quote">
+             <p class="bio-quote2">
+             Tristan Wede Lind's books on
+             web development are an invaluable 
+             resource for both novices and seasoned
+             professionals. <br>  His comprehensive yet 
+             accessible approach demystifies complex 
+             concepts, providing practical guidance that
+             translates directly into real-world success.
+             <br> Lind's expertise shines through in every page, 
+             making his works an indispensable addition to 
+             any developer's library.
+                <p class="bio-quote3">The Tech Tribune</p>
+            </article>
 
-</article>
-
-
-              <p>
+            
+            <div class="text-final">
+           <p class="text1">
               In addition to his professional accomplishments, 
               Lind is known for his dedication to sharing his 
               expertise through conferences, workshops, and online 
@@ -94,25 +136,24 @@
               enlightened audiences with his insightful talks,
               empowering developers to embrace emerging 
               technologies and adapt to the ever-evolving 
-              digital landscape.<p>
+              digital landscape.<p></div>
+             
+        </div>
+    </section>
 
-            
-
-
-
-
-        </section>
-
-       <section id="on-tour">
+       
+     
         <div  class="title-on-tour">
             <h1 class="section-title">On Tour</h1>
         </div>
-        
+         
         <img   class="Tristan-on-tour"
          src="img/tristan_640.jpg" alt="">
 
+<section id="on-tour">
           <!--EVENTS TOURS-->
-        <article class="events">
+          
+        <article id="card1" class="events">
         <div class="microphone-event">   
         <img class="microphone-img" src="img/microphone.png" alt="">
         <p class="event-date"> 2023, December 6-8</p></div> 
@@ -123,7 +164,7 @@
                 Moscone Center</p>
          </article>
                   <!--EVENTS TOURS-->
-        <article class="events">
+        <article id="card2"  class="events">
             <div class="microphone-event">   
             <img class="microphone-img" src="img/microphone.png" alt="">
             <p class="event-date"> 2023, December 12</p></div> 
@@ -134,7 +175,7 @@
                 <p class="event-place"> TBD</p>
              </article>
                        <!--EVENTS TOURS-->
-        <article class="events">
+        <article id="card1" class="events">
             <div class="microphone-event">   
             <img class="microphone-img" src="img/microphone.png" alt="">
             <p class="event-date"> 2024, January 15-17</p></div> 
@@ -145,7 +186,7 @@
 Miami Convention Center</p>
              </article>
                      <!--EVENTS TOURS-->
-        <article class="events">
+        <article id="card1"  class="events">
             <div class="microphone-event">   
             <img class="microphone-img" src="img/microphone.png" alt="">
             <p class="event-date"> 2024, January 22-23</p></div> 
@@ -261,7 +302,7 @@ Miami Convention Center</p>
                     </p>
             </article>     
               <!--EVENTS TOURS-->
-              <article class="events2">
+              <article class="events_description">
                 <div class="microphone-event">   
                 <img class="microphone-img" src="img/microphone.png" alt="">
                 <p class="event-date">2024, June 20</p></div> 
@@ -271,28 +312,28 @@ Miami Convention Center</p>
                     <p class="event-place"> TBD
 
                     </p>
-                    <div class="up-arrow"><img src="img/up-arrow.png" alt=""></div>
+                    
+                   <div class="up-arrow"> <a href="#nav-menu"><img src="img/up-arrow.png" alt=""></a></div>
                     
             </article>   
+       
 
+        </section >
 
-        </section  >
-        <section id="books">
-
-
-            <div  class="title-on-tour">
-                <h1 class="section-title">BOOKS </h1>
-            </div>
-            
+   
+       <div  class="title-on-tour">
+            <h1 class="section-title">BOOKS </h1>
+        </div>
+    <section class="books">   
        <!--BOOKS-->
             <article class="events2">
-            <div class="img-book">
-            <img src="img/book_php.png" alt=""></div>
-            <h3 class="title">Advanced PHP</h3>
-            <p><b>From Zero to Hero</b> (2023) </p>
-            </article>
-            <article>
-                <p class="events">
+               <div class="img-book">
+                  <img src="img/book_php.png" alt=""></div>
+              <div class="events3" >
+                  <h3 class="title">Advanced PHP</h3>
+                  <p><b>From Zero to Hero</b> (2023) </p>
+         
+                 <p class="events_text">
                 "Advanced PHP: From Zero to Hero" 
                 is a groundbreaking book that unlocks
                 the full potential of PHP programming. 
@@ -304,16 +345,17 @@ Miami Convention Center</p>
                 is a must-have for aspiring PHP developers 
                 seeking to elevate their skills 
                 to heroic heights. </p>
+            </div>
             </article>
              <!--BOOKS-->
-             <article class="events2">
+             <article  class="events2">
                 <div class="img-book">
                 <img src="img/book_css.png" alt=""></div>
+                <div class="events3" >
                 <h3 class="title">CSS for Developers</h3>
                 <p><b>A Visual Journey </b> (2022) </p>
-                </article>
-                <article>
-                    <p class="events">
+               
+                    <p class="events_text">
                         This work offers an immersive exploration 
                         of CSS that transcends mere syntax. 
                         Through vivid illustrations and practical
@@ -323,17 +365,18 @@ Miami Convention Center</p>
                         visual masterpiece is an indispensable
                         companion for developers seeking 
                         to elevate their CSS skills and
-                        create visually captivating websites. </p>
+                        create visually captivating websites. </p></div>
              </article>
              <!--BOOKS-->
              <article class="events2">
                 <div class="img-book">
                 <img src="img/book_js.png" alt=""></div>
+
+                <div class="events3">
                 <h3 class="title">Advanced JavaScript</h3>
                 <p><b>Frameworkless  </b> (2021) </p>
-                </article>
-                <article>
-                    <p class="events">
+               
+                    <p class="events_text">
                         In "Advanced JavaScript: 
                         Frameworkless," Tristan Wede Lind
                         revolutionizes the approach to JavaScript 
@@ -346,76 +389,104 @@ Miami Convention Center</p>
                          his essential guide unveils 
                          the true potential of JavaScript,
                           transforming developers into true 
-                          masters of the language. </p>
+                          masters of the language. </p> </div>
                 </article>
                   <!--BOOKS-->
              <article class="events2">
                 <div class="img-book">
                 <img src="img/book_programming.png" alt=""></div>
+
+                <div class="events3">
                 <h3 class="title">Basic Programming</h3>
                 <p><b>Algorithms and Beyond   </b> (2017) </p>
-                </article>
-                <article>
-                    <p class="events">
+              
+                    <p class="events_text">
                         A definitive guide that demystifies the fundamentals of programming. With clarity and precision, Lind introduces readers to essential concepts such as variables, loops, and conditionals, while also delving into the world of algorithms. This comprehensive resource equips aspiring programmers with the foundational knowledge needed to embark on a successful coding journey. </p>
-                </article>
+                </div></article>
                                   <!--BOOKS-->
              <article class="events2">
                 <div class="img-book">
                 <img src="img/book_js_basic.png" alt=""></div>
+
+                <div class="events3">
                 <h3 class="title">Basic Programming</h3>
                 <p><b>Algorithms and Beyond   </b> (2017) </p>
-                </article>
-                <article>
+                
                     <p class="events">
                         A definitive guide that demystifies the fundamentals of programming. With clarity and precision, Lind introduces readers to essential concepts such as variables, loops, and conditionals, while also delving into the world of algorithms. This comprehensive resource equips aspiring programmers with the foundational knowledge needed to embark on a successful coding journey. </p>
-                </article>
-                                  <!--BOOKS-->
-             <article class="events2">
-                <div class="img-book">
+                </div>
+            </article>
+
+
+
+                                 <!--BOOKS-->
+            <article class="events2">
+            <div class="img-book">
                 <img src="img/book_front_end.png" alt=""></div>
+
+                <div class="events3">
                 <h3 class="title">
                     Front-End Web Development</h3>
                 <p><b>A Nice Introduction  </b> (2016) </p>
-                </article>
-                <article>
-                    <p class="events2">
+              
+                   <p class="events_text">
                         A definitive guide that demystifies the fundamentals of programming. With clarity and precision, Lind introduces readers to essential concepts such as variables, loops, and conditionals, while also delving into the world of algorithms. This comprehensive resource equips aspiring programmers with the foundational knowledge needed to embark on a successful coding journey. </p>
                     </p>
-                    <div class="up-arrow">
-                        <a href="#nav-menu"><img src="img/up-arrow.png" alt=""></a></div>
-                    
-              </article>
-        </section>
-           
+                     
+              </article> 
+             
+    </section>      
+        
+            <div class="up-arrow">
+             <a href="#nav-menu"><img src="img/up-arrow.png" alt=""></a>
+            </div> 
 
-        <section id="contact">
-             <div  class="title-on-tour">
+    <section id="contact">
+       
+             <div id="title-on-tour" class="title-on-tour">
                 <h1  class="section-title">CONTACT</h1>
-            </div>
+            </div> 
+            
+            <div class="employee_info">
 
-            <article class="events">
+            <article id="info_employee2" class="events">
+                
                 <div class="img-book">
                 <img  class="victoria-img"  src="img/victoria.png" alt=""></div>
-                <h3 class="title">
+                
+                <div class="text-info-employee">
+                    <h3 class="title">
                     Publishing</h3>
                 <p ><b>Victoria Marsh  </b> (Editor) </p>
                 <p class="employee"><a href="victoriamarsh@keapublishing.com">victoriamarsh@keapublishing.com</p></a>
                 <p class="employee">Phone: <a href="(+44) 079 7502 0028">(+44) 079 7502 0028</a></p>
 
-            </article>
-            <article class="events2">
+            </div>
+        </article>
+            <article  id="info_employee2" 
+            class="events">
                 <div class="img-book">
                 <img  class="victoria-img"  src="img/elly.png" alt=""></div>
+                
+                <div class="text-info-employee">
                 <h3 class="title">
                     Publishing</h3>
                 <p><b>Elly Houthuijzen</b> (Agent) </p>
                 <p class="employee">
                     <a href="elly@houthuijzen.com">
                         elly@houthuijzen.com</p></a>
-                <p class="employee">Phone: <a href="(+31) 06-42821232">(+31) 06-42821232</a></p>
+                <p class="employee">Phone: 
+                    <a href="(+31) 06-42821232">
+                        (+31) 06-42821232</a></p> </div>
 
-            </article>
+             </article>
+          
+          
+            </div>
+        <div class="conference-img">
+            <img  class="conference-img1" src="img/conference.jpg" alt=""></div>
+            
+           
             <section id="booking">
                 <fieldset><legend>Request booking</legend>
                 <form  class="form-booking"  action="Post">
@@ -432,28 +503,37 @@ Miami Convention Center</p>
                 
                 
                 </fieldset>
-            </section>
-            <div class="up-arrow">
-                <a href="#nav-menu"><img src="img/up-arrow.png" alt=""></a></div>
 
-        </section>
+            
+            </section>
+
+
+          
+          </section>
+            <div class="up-arrow3">
+                <a href="#nav-menu"><img src="img/up-arrow.png" alt="">
+                </a>
+            </div>     
+        
     </main>
 
     <footer>
       <section id="footer1">
-       
+      <div class="kea_footer1">
         <img src="img/keapublishing.png" alt="">
-        <p>kEA Publishing. Inc</p> <div class="some">
+       
+        <p>kEA Publishing. Inc</p>  <div class="some"> 
         <img class="sm-logos" src="img/twitter.png" alt="twiter">
         <img class="sm-logos" src="img/linkedin.png" alt="linkedin">
         <img class="sm-logos" src="img/facebook.png" alt="facebook">
-        </div>
+        </div></div>
 
+        <div class="kea_footer1">
         <div class="policy"><p>Privacy Policy</p>
         <p>Terms of service</p>
-        <p>cookie Policy</p></div>
+        <p>cookie Policy</p></div></div>
 
-    
+    <div class="kea_footer1">
         <p> <a class="credits" href="https://www.pexels.com/@bertellifotografia/">
              Person pictures by</a> Matheus Bertelli</p> 
 
@@ -471,7 +551,7 @@ Miami Convention Center</p>
             
         <p> <a class="credits" href="https://chat.openai.com/?model=text-davinci-002-render-sha">
             Texts generated by</a>  ChatGPT</p> 
-
+        </div>
       </section>
       <div class="kea-copyright">
         <h4>&#169 2023 KEA Development</h4>

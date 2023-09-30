@@ -1,22 +1,7 @@
 
-:root{
-    
---red:#e12519;
---background:#ffffff;
---blue_kea:#32456d;
---font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
---border-radius:5px;
---font-size:20px;
---ms-grid-column:1fr 4fr 1fr;
---yellow:#e4bd05;
---border-radius-input:2px;
---background2:#FAF6F0;
---font-color:var(--blue_kea);
---yellowtext:#D7CD93;
---blue-nav-menu:#4e5e81;
----green-hover:#06908F;
-
-}
+@import 'variables.css';
+@import 'tablet.css';
+@import 'desk.css';
 
 *{
     margin: 0;
@@ -24,7 +9,8 @@
     box-sizing: content-box;
     
 }
-@media (min-width:320px) and (max-width: 576px){
+/*MOBIL VERSION*/
+@media (min-width:330px) and (max-width: 576px){
 
 body{ 
 color: var(--blue_kea);
@@ -32,6 +18,11 @@ background-color: var(--background2);
 display: flex;
 flex-direction: column;
 justify-content: center;
+
+}
+.lind-photo2{
+    display: none;
+   
 
 }
 
@@ -46,6 +37,8 @@ justify-content: center;
   color: var(--yellowtext);
 
 }
+
+
 .nav-menu{
     background-color: var(--blue-nav-menu);
     font-size: flex;
@@ -81,11 +74,17 @@ ul li a{
     background-color: var(---green-hover);
 
 }
+.parte1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .new-release-info{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
     padding: 2rem;
     background-color:var(--yellowtext);
 }
@@ -106,17 +105,17 @@ h2, img {
     flex-direction:column;
     justify-items: center;
     background-color:var(--blue-nav-menu);
-    height: 30rem;
-    margin: 2rem;
+   
     border-radius: var( --border-radius);
 }
 .bio-quote2{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0rem;
+    margin: 1rem;
     font-size:var(--font-size);
-    padding: 1rem;
+    padding: 3rem;
+    padding-bottom: 5px;
     align-items: center;
     font-style: italic;
     color: var(--background);
@@ -126,7 +125,8 @@ h2, img {
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: 15px;
+    margin: 5px;
+    padding-bottom: 10px;
     margin-right: 20px;
     font-size: var(--font-size);
     font-style: italic;
@@ -153,7 +153,17 @@ h2, img {
   align-items: center;
 
 }
+.welcome2{
+    display: none;
+}
+.welcome1{
+    display:none;
+}
+.photo_2_welcome{
+    display: none;
+}
 /*EVENTS ON TOURS*/
+
 .events2{
     display: flex;
     flex-direction: column;
@@ -204,11 +214,36 @@ h2, img {
 
 }
 
+.events_description{
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+    padding: 1rem;
+    font-size: var(--font-size);
+}
+.events4{
+    display: flex;
+    flex-direction:row-reverse;
+    margin-bottom:3rem;
+    padding: 10px;
+    font-size: var(--font-size);
+    justify-content: center;
+    margin-bottom: 1rem;
+    flex-wrap: nowrap;
+}  
+.events_text{
+    padding-left: 0px;
+    margin-left: 0px;
+}
 .img-book{
     display: flex;
     flex-direction: column;
     align-items:center;
     padding-bottom: 1rem;
+}
+
+.conference-img{
+    display: none;
 }
 .victoria-img{
     border-radius: 50%;
@@ -270,6 +305,17 @@ textarea{
 footer{
     color: var(--background);
     background-color: var(--blue_kea);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.kea_footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-around;
+   padding-inline: 5rem;
 }
 
 .some{
@@ -307,14 +353,5 @@ a{
 }
 
 
-
-/*.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  }*/
 
 }
